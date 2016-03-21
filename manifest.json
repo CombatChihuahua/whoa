@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "whoa",
+  "short_name" : "whoa",
+  "description": "This extension helps you figure out which websites to trust.",
+  "version": "0.0.1",
+  "icons": { "128": "whoa-128.png" },
+
+  "permissions": [
+    "browsingData",
+    "<all_urls>",
+    "storage",
+    "tabs",
+    "topSites",
+    "unlimitedStorage",
+    "webNavigation"
+  ],
+
+  "background": {
+    "scripts": ["whoa-bg.js"],
+    "persistent": true
+  },
+
+  "page_action": {
+    "default_title": "whoa",
+    "default_icon": "whoa-128.png",
+    "default_popup": "whoa.html"
+  }
+}

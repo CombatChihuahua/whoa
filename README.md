@@ -26,5 +26,6 @@ If it is possible to report the site to, for example google or some other author
 that will also be done with untrusted sites.
 
 Warnings will be BIG to avoid any chance that they will be missed. My sense is
-that many security warnings in browsers are too subtle. This needs to be the opposite
-of subtle.
+that many security warnings in browsers are too subtle and are often overlooked
+as a result. This needs to be the opposite of subtle, with an emphasis on the
+consequences of accepting a potentially bad site.
